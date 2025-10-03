@@ -1,0 +1,15 @@
+,Gün,Hava Durumu,Sıcaklık,Nem,Yağış,Oyun
+0,G1,Güneşli,Sıcak,Yüksek,Seyrek,Yok
+1,G2,Güneşli,Sıcak,Yüksek,Aşırı,Yok
+2,G3,Kapalı,Sıcak,Yüksek,Seyrek,Var
+3,G4,Yağmurlu,Ilıman,Yüksek,Seyrek,Var
+4,G5,Yağmurlu,Soğuk,Normal,Seyrek,Var
+5,G6,Yağmurlu,Soğuk,Normal,Aşırı,Yok
+6,G7,Kapalı,Soğuk,Normal,Aşırı,Var
+7,G8,Güneşli,Ilıman,Yüksek,Seyrek,Var
+8,G9,Güneşli,Soğuk,Normal,Seyrek,Yok
+9,G10,Yağmurlu,Ilıman,Normal,Seyrek,Var
+10,G11,Güneşli,Ilıman,Normal,Aşırı,Var
+11,G12,Kapalı,Ilıman,Yüksek,Aşırı,Yok
+12,G13,Kapalı,Sıcak,Normal,Seyrek,Var
+13,G14,Yağmurlu,Ilıman,Yüksek,Aşırı,Yok
