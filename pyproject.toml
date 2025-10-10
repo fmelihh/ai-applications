@@ -12,5 +12,7 @@ dependencies = [
     "pandas>=2.3.2",
     "scikeras>=0.13.0",
     "scikit-learn>=1.7.2",
+    "seaborn>=0.13.2",
+    "simpsom>=2.0.2",
     "tensorflow>=2.20.0",
 ]
