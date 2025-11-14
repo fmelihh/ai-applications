@@ -11,9 +11,11 @@ dependencies = [
     "kagglehub>=0.3.13",
     "matplotlib>=3.10.6",
     "pandas>=2.3.2",
+    "plotly>=6.4.0",
     "scikeras>=0.13.0",
     "scikit-learn>=1.7.2",
     "seaborn>=0.13.2",
     "simpsom>=2.0.2",
     "tensorflow>=2.20.0",
+    "tensorflow-io>=0.37.1",
 ]

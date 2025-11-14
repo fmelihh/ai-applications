@@ -1331,6 +1331,15 @@ wheels = [
 ]
 
 [[package]]
+name = "narwhals"
+version = "2.11.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/7d/a2/25208347aa4c2d82a265cf4bc0873aaf5069f525c0438146821e7fc19ef5/narwhals-2.11.0.tar.gz", hash = "sha256:d23f3ea7efc6b4d0355444a72de6b8fa3011175585246c3400c894a7583964af", size = 589233 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/c0/a1/4d21933898e23b011ae0528151b57a9230a62960d0919bf2ee48c7f5c20a/narwhals-2.11.0-py3-none-any.whl", hash = "sha256:a9795e1e44aa94e5ba6406ef1c5ee4c172414ced4f1aea4a79e5894f0c7378d4", size = 423069 },
+]
+
+[[package]]
 name = "nbclient"
 version = "0.10.2"
 source = { registry = "https://pypi.org/simple" }
@@ -1703,6 +1712,19 @@ source = { registry = "https://pypi.org/simple" }
 sdist = { url = "https://files.pythonhosted.org/packages/23/e8/21db9c9987b0e728855bd57bff6984f67952bea55d6f75e055c46b5383e8/platformdirs-4.4.0.tar.gz", hash = "sha256:ca753cf4d81dc309bc67b0ea38fd15dc97bc30ce419a7f58d13eb3bf14c4febf", size = 21634 }
 wheels = [
     { url = "https://files.pythonhosted.org/packages/40/4b/2028861e724d3bd36227adfa20d3fd24c3fc6d52032f4a93c133be5d17ce/platformdirs-4.4.0-py3-none-any.whl", hash = "sha256:abd01743f24e5287cd7a5db3752faf1a2d65353f38ec26d98e25a6db65958c85", size = 18654 },
+]
+
+[[package]]
+name = "plotly"
+version = "6.4.0"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "narwhals" },
+    { name = "packaging" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/06/e6/b768650072837505804bed4790c5449ba348a3b720e27ca7605414e998cd/plotly-6.4.0.tar.gz", hash = "sha256:68c6db2ed2180289ef978f087841148b7efda687552276da15a6e9b92107052a", size = 7012379 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/78/ae/89b45ccccfeebc464c9233de5675990f75241b8ee4cd63227800fdf577d1/plotly-6.4.0-py3-none-any.whl", hash = "sha256:a1062eafbdc657976c2eedd276c90e184ccd6c21282a5e9ee8f20efca9c9a4c5", size = 9892458 },
 ]
 
 [[package]]
@@ -2376,6 +2398,31 @@ wheels = [
 ]
 
 [[package]]
+name = "tensorflow-io"
+version = "0.37.1"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "tensorflow-io-gcs-filesystem" },
+]
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/7c/74/6042510c333143c9ea7dda27cba7b7c3df1be1cd380ce018d7bc1c9ac3df/tensorflow_io-0.37.1-cp312-cp312-macosx_10_14_x86_64.whl", hash = "sha256:42c587d9962554adbcfd2da17b51415dbb04c18afb06055649b7c3be4c21a266", size = 22100394 },
+    { url = "https://files.pythonhosted.org/packages/65/cf/de4565efb945064b79225da5c18e16de56ff09e1436df3237bbfe3d2f5a1/tensorflow_io-0.37.1-cp312-cp312-macosx_12_0_arm64.whl", hash = "sha256:1fdc5c28c038ab9ae0ad505a9fce45e6cc6dadd1133932d4f38fdea8d8a05900", size = 31808786 },
+    { url = "https://files.pythonhosted.org/packages/37/ed/27ada83e3802df4b235d921c8f402dbefd20b65c38e2915fed0cc914f851/tensorflow_io-0.37.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1c51b213c8d9b933e1602fccfb8fd70e8b5719e27916fcbe088ca7f695c70f49", size = 48623974 },
+    { url = "https://files.pythonhosted.org/packages/b4/4c/3f673f2ca7660f7defde57716a2978333db5bb9882c28f720713b0c476bd/tensorflow_io-0.37.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:1abf9b8db2faa37c94aed7fef267c93e0fba30b6ec30f857a39ea7e89bf3748d", size = 49593033 },
+]
+
+[[package]]
+name = "tensorflow-io-gcs-filesystem"
+version = "0.37.1"
+source = { registry = "https://pypi.org/simple" }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/70/83/4422804257fe2942ae0af4ea5bcc9df59cb6cb1bd092202ef240751d16aa/tensorflow_io_gcs_filesystem-0.37.1-cp312-cp312-macosx_10_14_x86_64.whl", hash = "sha256:ffebb6666a7bfc28005f4fbbb111a455b5e7d6cd3b12752b7050863ecb27d5cc", size = 2470224 },
+    { url = "https://files.pythonhosted.org/packages/43/9b/be27588352d7bd971696874db92d370f578715c17c0ccb27e4b13e16751e/tensorflow_io_gcs_filesystem-0.37.1-cp312-cp312-macosx_12_0_arm64.whl", hash = "sha256:fe8dcc6d222258a080ac3dfcaaaa347325ce36a7a046277f6b3e19abc1efb3c5", size = 3479614 },
+    { url = "https://files.pythonhosted.org/packages/d3/46/962f47af08bd39fc9feb280d3192825431a91a078c856d17a78ae4884eb1/tensorflow_io_gcs_filesystem-0.37.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:fbb33f1745f218464a59cecd9a18e32ca927b0f4d77abd8f8671b645cc1a182f", size = 4842077 },
+    { url = "https://files.pythonhosted.org/packages/f0/9b/790d290c232bce9b691391cf16e95a96e469669c56abfb1d9d0f35fa437c/tensorflow_io_gcs_filesystem-0.37.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:286389a203a5aee1a4fa2e53718c661091aa5fea797ff4fa6715ab8436b02e6c", size = 5085733 },
+]
+
+[[package]]
 name = "termcolor"
 version = "3.1.0"
 source = { registry = "https://pypi.org/simple" }
@@ -2630,11 +2677,13 @@ dependencies = [
     { name = "kagglehub" },
     { name = "matplotlib" },
     { name = "pandas" },
+    { name = "plotly" },
     { name = "scikeras" },
     { name = "scikit-learn" },
     { name = "seaborn" },
     { name = "simpsom" },
     { name = "tensorflow" },
+    { name = "tensorflow-io" },
 ]
 
 [package.metadata]
@@ -2645,9 +2694,11 @@ requires-dist = [
     { name = "kagglehub", specifier = ">=0.3.13" },
     { name = "matplotlib", specifier = ">=3.10.6" },
     { name = "pandas", specifier = ">=2.3.2" },
+    { name = "plotly", specifier = ">=6.4.0" },
     { name = "scikeras", specifier = ">=0.13.0" },
     { name = "scikit-learn", specifier = ">=1.7.2" },
     { name = "seaborn", specifier = ">=0.13.2" },
     { name = "simpsom", specifier = ">=2.0.2" },
     { name = "tensorflow", specifier = ">=2.20.0" },
+    { name = "tensorflow-io", specifier = ">=0.37.1" },
 ]
